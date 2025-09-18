@@ -88,7 +88,7 @@ div.body {
 
 div.footnote {
   font-size: 12px;
-  line-height: 100px;
+  line-height: 20px;
   font-family: "poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -301,7 +301,13 @@ div.body2 {
 }
 .red-stripes .stripe {
   height: 15px;
-  width: 500px;
+  width: 580px;
+  background: red;
+}
+
+.red-stripes .stripe3 {
+  height: 15px;
+  width: 640px;
   background: red;
 }
 
