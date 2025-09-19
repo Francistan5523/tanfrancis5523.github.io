@@ -298,8 +298,8 @@ div.right {
 
 /* circle */
 .circle {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   background: red;
   border-radius: 50%;
   margin: 20px 0;
@@ -446,7 +446,7 @@ div.body2 {
 
 /* third section layout */
 .third-section {
-  margin-top: 100px;
+  margin-top: 00px;
   display: grid;
   grid-template-columns: 30% 70%;
   gap: 40px;
@@ -514,7 +514,6 @@ div.right5 {
 /* sixth section layout */
 
 .sixth-section {
-  margin-top: 100px;
   display: grid;
   grid-template-columns: 30% 70%;
   gap: 40px;
@@ -562,7 +561,6 @@ div.right6 {
 /* seventh section layout */
 
 .seventh-section {
-  margin-top: 100px;
   display: grid;
   grid-template-columns: 30% 70%;
   gap: 40px;
@@ -630,7 +628,7 @@ img {
 .asset5-img {
   position: absolute;
   left: 850px;
-  top: 4690px;
+  top: 4615px;
   height: 600px;
   width: 600px;
 }
