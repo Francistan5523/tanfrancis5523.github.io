@@ -266,11 +266,18 @@ div.right {
   height: auto;
 }
 
+.swoosh2 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  left: -750px;
+  top: 100px;
+}
+
 /* second section layout */
 
 .second-section {
   margin-top: 100px;
-  margin-left: calc(-10px);
   display: grid;
   grid-template-columns: 30% 70%;
   gap: 40px;
@@ -414,14 +421,16 @@ div.body2 {
 }
 .red-stripes .stripe {
   height: 15px;
-  width: 580px;
+  width: 700px;
   background: red;
+  margin-left: -100px;
 }
 
 .red-stripes .stripe3 {
   height: 15px;
   width: 640px;
   background: red;
+  margin-left: 0px;
 }
 
 /* footnote */
@@ -453,6 +462,8 @@ div.right3 {
   padding: 40px 60px;
   height: auto;  
   max-width: 100%;
+  grid-column: 2;
+  margin-top: -490px;
 }
 
 /* fourth section layout */
@@ -479,7 +490,6 @@ div.right4 {
 
 .fifth-section {
   margin-top: 100px;
-  margin-left: calc(-10px);
   display: grid;
   grid-template-columns: 30% 70%;
   gap: 40px;
@@ -505,7 +515,6 @@ div.right5 {
 
 .sixth-section {
   margin-top: 100px;
-  margin-left: calc(-10px);
   display: grid;
   grid-template-columns: 30% 70%;
   gap: 40px;
@@ -517,10 +526,12 @@ div.right5 {
 }
 
 div.right6 {
-  background: green;
+  background: transparent;
   padding: 40px 60px;
   height: auto;  
   max-width: 100%;
+  grid-column: 2;
+  margin-top: -200px;
 }
 
 /* black stripes */
@@ -533,6 +544,7 @@ div.right6 {
   height: 15px;
   width: 1000px;
   background: black;
+  margin-left: -100px;
 }
 
 /* vertical black stripes */
@@ -551,7 +563,6 @@ div.right6 {
 
 .seventh-section {
   margin-top: 100px;
-  margin-left: calc(-10px);
   display: grid;
   grid-template-columns: 30% 70%;
   gap: 40px;
@@ -614,4 +625,28 @@ img {
   top: 20px;
   height: 500px;
   width: 500px;
+}
+
+.asset5-img {
+  position: absolute;
+  left: 850px;
+  top: 4690px;
+  height: 600px;
+  width: 600px;
+}
+
+.asset31-img {
+  position: relative;
+  left: -800px;
+  top: 200px;
+  height: 400px;
+  width: 400px;
+}
+
+.asset6-img {
+  position: relative;
+  left: 500px;
+  top: 100px;
+  height: 200px;
+  width: 200px;
 }
