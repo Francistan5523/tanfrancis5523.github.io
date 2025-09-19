@@ -68,6 +68,13 @@ div.subtitle {
   padding: 100px;
 }
 
+div.subtitle2 {
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: 400;
+  color: black;
+}
+
 div.firstsubtitle {
   font-size: 24px;
   line-height: 100px;
@@ -128,7 +135,7 @@ div.body3 {
   font-style: normal;
   padding:  10px;
   max-width: 100%;
-  margin-top: 170px;
+  margin-top: 270px;
 }
 
 div.body4 {
@@ -140,7 +147,7 @@ div.body4 {
   font-style: normal;
   padding:  10px;
   max-width: 100%;
-  margin-top: -80px;
+  margin-top: 10px;
 }
 
 div.body5 {
@@ -152,7 +159,7 @@ div.body5 {
   font-style: normal;
   padding:  10px;
   max-width: 100%;
-  margin-top: -100px;
+  margin-top: 20px;
 }
 
 
@@ -392,14 +399,6 @@ div.right2 {
   max-width: 100%;
 }
 
-div.subtitle2 {
-  font-size: 24px;
-  line-height: 35px;
-  font-weight: 400;
-  color: black;
-}
-
-
 div.body2 {
   font-size: 16px;
   color: black;
@@ -489,15 +488,17 @@ div.right4 {
   padding: 60px 80px;
   width: 100vw;
   box-sizing: border-box;
+  height: auto;
 }
 
 div.right5 {
-  background: green;
+  background: transparent;
   padding: 40px 60px;
   height: auto;  
   margin-right: 00px;
   max-width: 100%;
-  margin-left: 00px;
+  margin-top: -400px;
+  grid-column: 2;
 }
 
 /* sixth section layout */
@@ -583,27 +584,34 @@ div.right7 {
   width: 100%;
 }
 
-div.left10 {
-  margin-right: 500px;
-  height: 1000px;
-  background: pink;
-}
-
 /* images */
 
 img {
   object-fit: contain;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
+}
+
+.asset1-img {
+  position: relative;
+  left: 100px;
 }
 
 .asset2-img {
   position: relative;
-  left: -550px;
+  left: -420px;
 }
 
 .asset3-img {
   position: relative;
   left: -120px;
-  top: -50px;
+  top: 20px;
+}
+
+.asset4-img {
+  position: relative;
+  left: 120px;
+  top: 20px;
+  height: 500px;
+  width: 500px;
 }
