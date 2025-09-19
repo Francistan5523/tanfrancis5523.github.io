@@ -8,8 +8,7 @@ body{
     color: white;
 
     border-top: 50px solid white;
-    margin: 0px;
-    padding: 10px;
+    padding: 0px;
 
     background-color: red
 
@@ -42,9 +41,22 @@ div.title2 {
 }
 
 div.title3 {
+  margin-top: 500px;
   font-size:400px;
   font-family: "poppins", sans-serif;
   font-style: bold;
+}
+
+div.title4 {
+  font-size: 70px;
+  line-height: 100px;
+  font-family: "bc-vajgar", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+  padding: 0px;
+  margin-left: -700px;
+  margin-top: 200px;
 }
 
 div.subtitle {
@@ -54,6 +66,16 @@ div.subtitle {
   font-weight: 400;
   font-style: normal;
   padding: 100px;
+}
+
+div.firstsubtitle {
+  font-size: 24px;
+  line-height: 100px;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 100px;
+  margin-top: 80px;
 }
 
 div.quote {
@@ -74,7 +96,7 @@ div.quote2 {
   padding: 0px;
 }
 
-div.body {
+div.body1 {
   font-size: 16px;
   line-height: 28px;
   font-family: "poppins", sans-serif;
@@ -84,6 +106,55 @@ div.body {
   max-width: 100%;
   margin-bottom: 0px;
 }
+
+div.firstbody {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding:  100px;
+  max-width: 100%;
+  margin-top: -200px;
+  color: white;
+}
+
+div.body3 {
+  color: white;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding:  10px;
+  max-width: 100%;
+  margin-top: 680px;
+}
+
+div.body4 {
+  color: white;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding:  10px;
+  max-width: 100%;
+  margin-top: 440px;
+}
+
+div.body5 {
+  color: white;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding:  10px;
+  max-width: 100%;
+  margin-top: 420px;
+}
+
 
 
 div.footnote {
@@ -161,7 +232,7 @@ div.left {
 }
 
 div.right {
-  background: blue;
+  background: red;
   padding: 10px;
   height: auto;  
   max-width: 100%;
@@ -229,13 +300,15 @@ div.right {
   color: black;
 }
 
-/* chinese stars */
+/* 1 chinese stars */
 .china-stars {
   position: relative;
   height: 200px;
   width: 200px;
-  margin-top: 40px;
+  margin-top: 10px;
+  margin-left: 480px;
 }
+
 .star {
   position: absolute;
   background: red;
@@ -269,10 +342,51 @@ div.right {
 .star.small:nth-child(4) { top: 100px; left: 150px; }
 .star.small:nth-child(5) { top: 160px; left: 120px; }
 
+/* 2 chinese stars */
+.china-stars2 {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  margin-top: 10px;
+}
+
+.star2 {
+  position: absolute;
+  background: red;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
+.star2.big { 
+  width: 200px; 
+  height: 200px;
+  left: 0;
+  top: 50px;
+}
+.star2.small { 
+  width: 80px; 
+  height: 80px; 
+}
+
+/* position small stars around big star */
+.star2.small:nth-child(2) { top: -50px; left: 170px; }
+.star2.small:nth-child(3) { top: 40px; left: 280px; }
+.star2.small:nth-child(4) { top: 160px; left: 280px; }
+.star2.small:nth-child(5) { top: 250px; left: 170px; }
+
 
 /* right side */
 div.right2 {
-  background: blue;
+  background: transparent;
   padding: 40px 60px;
   height: auto;  
   max-width: 100%;
@@ -336,7 +450,7 @@ div.body2 {
 }
 
 div.right3 {
-  background: blue;
+  background: white;
   padding: 40px 60px;
   height: auto;  
   max-width: 100%;
@@ -356,7 +470,7 @@ div.right3 {
 }
 
 div.right4 {
-  background: blue;
+  background: transparent;
   padding: 40px 60px;
   height: 800px;  
   max-width: 100%;
@@ -378,10 +492,12 @@ div.right4 {
 }
 
 div.right5 {
-  background: blue;
+  background: green;
   padding: 40px 60px;
   height: auto;  
+  margin-right: 00px;
   max-width: 100%;
+  margin-left: 00px;
 }
 
 /* sixth section layout */
@@ -400,7 +516,7 @@ div.right5 {
 }
 
 div.right6 {
-  background: blue;
+  background: green;
   padding: 40px 60px;
   height: auto;  
   max-width: 100%;
@@ -446,8 +562,29 @@ div.right6 {
 }
 
 div.right7 {
-  background: blue;
+  background: white;
   padding: 40px 60px;
   height: auto;  
   max-width: 100%;
+}
+
+/* top black rectangle */
+.black-box {
+  background: black;
+  height: 100px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* thin black line */
+.black-line {
+  background: black;
+  height: 20px;
+  width: 100%;
+}
+
+div.left10 {
+  margin-right: 500px;
+  height: 1000px;
+  background: pink;
 }
