@@ -646,3 +646,12 @@ img {
   height: 200px;
   width: 200px;
 }
+
+.asset7-img {
+  position: absolute;
+  left: 770px;
+  top: 280px;
+  height: 700px;
+  width: 700px;
+
+}
